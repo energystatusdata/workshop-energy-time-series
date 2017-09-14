@@ -1,5 +1,27 @@
-# workshop-energy-time-series
+# Energy Status Data - Time Series Storage and Analytics - Part 2
 
-Welcome in the Energy Time Series Storage and Analytics workshop ! 
+This is the second part of the workshop on time series storage and analytics. The focus is on time series forecasting.
 
-In this repository, you will find presentation materials and ressources for the workshop. 
+## Setup
+
+### Python 
+
+Various dependencies are required. We recommend to install [Anaconda](https://www.anaconda.com/what-is-anaconda/). Afterwards install the following package(s):
+
+```
+conda install keras
+```
+
+To start the notebook locally, simply do:
+
+```
+jupyter notebook
+```
+
+### R 
+
+Some part of our evaluation was conducted with R. To execute the script `forecast.R`, you will need the following R packages:
+
+- `tseries` 
+- `forecast`
+
